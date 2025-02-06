@@ -1,0 +1,1 @@
+# This website was made as a practice project just to see if i understand the concepts througly! 
