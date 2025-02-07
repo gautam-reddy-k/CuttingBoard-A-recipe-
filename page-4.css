@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+
+}
+
+nav h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 35px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fbf8ec;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.pageChickenSalad {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f9f0ce;
+
+}
+
+.pageChickenSalad img {
+    width: 50%;
+    background-color: #fbf8ec;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 5px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.info {
+    text-align: left;
+    padding: 20px;
+    width: 800px;
+    background-color: #fbf8ec;
+    border-radius: 30px;
+    margin-top: 30px;
+    box-shadow: 5px 3px 0px rgba(0, 0, 0, 0.1);
+
+    font-size: 14px;
+    line-height: 30px;
+    line-clamp: 20px;
+    margin-bottom: 101px;
+}
+
+.page {
+    height: auto;
+    background-color: #f9f0ce;
+}
+
+.info li {
+    margin-left: 50px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.bold ol {
+    font-weight: 400;
+}
+
+footer {
+
+    background-color: #c7b36e;
+    height: 13.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#Footer h3,
+em {
+    background-color: #ece3c2;
+    font-style: normal;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+#Footer em {
+    margin-bottom: 10px;
+}
